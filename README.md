@@ -18,8 +18,8 @@ In order to use this widget, you need to do the following steps:
     * "Parameter": leave it blank
 
 [App Store]:https://apps.apple.com/de/app/scriptable/id1405459188
-[here]:https://github.com/leon47331/scriptable-news-rss-widget/releases
-[Edit Script]:https://github.com/leon47331/scriptable-news-rss-widget/#edit-script
+[here]:https://github.com/leon47331/scriptable-lockscreen-rss-widget/releases
+[Edit Script]:https://github.com/leon47331/scriptable-lockscreen-rss-widget/#edit-script
 
 ## Edit script
 Now that you have the script in Scriptable, it's time to enter your favorite news site.<br>

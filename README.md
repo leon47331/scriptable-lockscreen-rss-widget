@@ -1,4 +1,4 @@
-# RSS-News (Scriptable)
+# RSS Lockscreen Widget (Scriptable)
 This is a simple widget that allows you to add your favorite news site via RSS right on your iOS lockscreen.
 
 
@@ -29,5 +29,5 @@ These are the changes you need to make in the script:
 const url = "RSS-FEED-URL";
 const srcName = "SITE-NAME"
 ```
-Replace RSS-FEED-URL with the URL of the RSS feed you'd like to add.
-Replace SITE-NAME with the name of the site which will be displayed on the lockscreen.
+Replace ```RSS-FEED-URL``` with the URL of the RSS feed you'd like to add.
+Replace ```SITE-NAME``` with the name of the site which will be displayed on the lockscreen.

@@ -2,7 +2,7 @@
 This is a simple widget that allows you to add your favorite news site via RSS right on your iOS lockscreen.
 
 
-<p align="center"><img src="https://i.imgur.com/DBX2kLD.png" width=400 height=800 alt="Sriptable RSS News Widget"></p>
+<p align="center"><img src="https://i.imgur.com/DBX2kLD.png" width=55% height=50% alt="Sriptable RSS News Widget"></p>
 
 ## Features
 * Display a custom RSS feed right on your lockscreen

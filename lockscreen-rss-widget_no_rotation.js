@@ -1,6 +1,6 @@
 // Scriptable Lockscreen RSS widget (without rotation feature)
-// Version: v1.1.0
-// Author: @leon1912
+// Version: v1.1.1
+// Author: @leon47331
 
 const url = "RSS-FEED-URL";
 const srcName = "SITE-NAME"
@@ -10,7 +10,7 @@ async function getRSSFeed() {
   let feed = await req.loadString();
   let items = [];
   
-  let regex = /<item>[\s\S]*?<title>(.*?)<\/title>[\s\S]*?<link>(.*?)<\/link>[\s\S]*?<\/item>/g;
+  let regex = /<item>[\s\S]*?<title>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?<\/title>[\s\S]*?<link>(.*?)<\/link>[\s\S]*?<\/item>/g;
   let match;
   
   while ((match = regex.exec(feed)) !== null) {
@@ -51,7 +51,7 @@ async function createWidget() {
 
   } else {
     widget.addText("No new articles available");
-    widget.url = "scriptable://" // FIXME
+    widget.url = "scriptable://" // FIXME: Placeholder
   }
    
   Script.setWidget(widget);
